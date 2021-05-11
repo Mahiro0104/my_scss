@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/* margin / padding
+------------------------------ */
+
+.hp_ma {
+  margin: 0 auto !important;
+}
+
+.hp_p0 {
+  padding: 0 !important;
+}
+
+// !!@ifで単位をpxとremで切り替えが出来るようにしたい。
+@for $i from 1 through 15 {
+  // margin : 10px ~ 150px
+  .hp_mt#{10 * $i} {
+    margin-top: #{10px * $i} !important;
+  }
+  .hp_mb#{10 * $i} {
+    margin-bottom: #{10px * $i} !important;
+  }
+  .hp_ml#{10 * $i} {
+    margin-left: #{10px * $i} !important;
+  }
+  .hp_mt#{10 * $i} {
+    margin-right: #{10px * $i} !important;
+  }
+
+  // padding : 10px ~ 150px
+  .hp_pt#{10 * $i} {
+    padding-top: #{10px * $i} !important;
+  }
+  .hp_pb#{10 * $i} {
+    padding-bottom: #{10px * $i} !important;
+  }
+  .hp_pl#{10 * $i} {
+    padding-left: #{10px * $i} !important;
+  }
+  .hp_pt#{10 * $i} {
+    padding-right: #{10px * $i} !important;
+  }
+}
+
+// 色を追加したい。
+
+/* 色ヘルパー用色変数
+------------------------------ */
+
+/* color
+------------------------------ */
+
+/* backGroudnColor
+------------------------------ */
+
+/* borderColor
+------------------------------ */

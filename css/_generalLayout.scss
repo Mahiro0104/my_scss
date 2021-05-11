@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/* display - block
+------------------------------ */
+.ly_db {
+  display: block;
+}
+
+.ly_dib {
+  display: inline-block;
+}
+
+/* display - flex
+------------------------------ */
+.ly_df {
+  display: flex;
+}
+
+.ly_dfCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.ly_df__jcc {
+  justify-content: center;
+}
+
+.ly_df__jcsa {
+  justify-content: space-around;
+}
+
+.ly_df__jcsb {
+  justify-content: space-between;
+}
+
+.ly_df__jcfs {
+  justify-content: flex-start;
+}
+
+.ly_df__jcfe {
+  justify-content: flex-end;
+}
+
+.ly_df__flex0 {
+  flex: 0;
+}
+
+.ly_df__flex1 {
+  flex: 1;
+}
+
+.ly_df__flex10 {
+  flex: 1 0;
+}
+
+/* display - gird
+------------------------------ */

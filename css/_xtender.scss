@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* display - block
+------------------------------ */
+%db {
+  display: block;
+}
+
+%dib {
+  display: inline-block;
+}
+
+/* display - flex
+------------------------------ */
+
+%df {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+%df__fxdr {
+  flex-direction: row;
+}
+
+%df__fxdc {
+  flex-direction: column;
+}
+
+%df__jcc {
+  justify-content: center;
+}
+
+%df__jcfs {
+  justify-content: flex-start;
+}
+
+%df__jcfe {
+  justify-content: flex-end;
+}
+
+%df__jcsa {
+  justify-content: space-around;
+}
+
+%df__jcsb {
+  justify-content: space-between;
+}
