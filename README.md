@@ -2,6 +2,9 @@
 Emmetの記法学習ついでに作成したscss（Sass）です。
 PRECSSによる記述を行い、短縮系はEmmetです。
 
+PRECSS
+https://precss.io/
+
 ## 役割
 - style.scss ...親ファイル。特に記述は行わない。
   - _xtender.scss ...接頭辞：なし。プレースホルダー用のパーシャルです。あったら面白いかなと。Emmet風です。
