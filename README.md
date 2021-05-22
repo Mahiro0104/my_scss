@@ -12,7 +12,8 @@ https://precss.io/
   - _mixin.scss   ...接頭辞：なし。@mixin用。空です。
   - _base.scss    ...接頭辞：なし。タグ用。また、汎用的なルールセットも。
   - _helper.scss  ...接頭辞：hp。margin, padding, text-align...等、1プロパティのみのパーシャルです。
-  - _generalLayout.scss ...接頭辞：ly。displayやwidth等のごく一般的なレイアウトを予め作成したパーシャルです。
+  - _generalLayout.scss ...接頭辞：gl。wrap等の汎用的なレイアウトルールセットを予め作成したパーシャルです。粒度が揃うよう気をつけていますが、基本オレオレです。
+  - _commonLayout.scss ...接頭辞：cl。displayやwidth等のごく一般的なレイアウトを予め作成したパーシャルです。
   - _layout.scss  ...接頭辞：ly。配置に関するルールセット用です。
   - _block.scss   ...接頭辞：bl。大きなモジュール用です。
   - _element.scss ...接頭辞：el。小さなモジュール用です。

@@ -1,57 +1,13 @@
 @charset "UTF-8";
 
-/* display - block
------------------------------- */
-.ly_db {
+.gl_wrap {
   display: block;
+  width: 100%;
 }
 
-.ly_dib {
-  display: inline-block;
+// paddingつきcontainer
+.gl_pContainer {
+  display: block;
+  width: 100%;
+  padding: 30px;
 }
-
-/* display - flex
------------------------------- */
-.ly_df {
-  display: flex;
-}
-
-.ly_dfCol {
-  display: flex;
-  flex-direction: column;
-}
-
-.ly_df__jcc {
-  justify-content: center;
-}
-
-.ly_df__jcsa {
-  justify-content: space-around;
-}
-
-.ly_df__jcsb {
-  justify-content: space-between;
-}
-
-.ly_df__jcfs {
-  justify-content: flex-start;
-}
-
-.ly_df__jcfe {
-  justify-content: flex-end;
-}
-
-.ly_df__flex0 {
-  flex: 0;
-}
-
-.ly_df__flex1 {
-  flex: 1;
-}
-
-.ly_df__flex10 {
-  flex: 1 0;
-}
-
-/* display - gird
------------------------------- */

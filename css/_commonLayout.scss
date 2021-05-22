@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/* display - block
+------------------------------ */
+.cl_db {
+  display: block;
+}
+
+.cl_dib {
+  display: inline-block;
+}
+
+/* display - flex
+------------------------------ */
+.cl_df {
+  display: flex;
+}
+
+.cl_dfCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.cl_df__jcc {
+  justify-content: center;
+}
+
+.cl_df__jcsa {
+  justify-content: space-around;
+}
+
+.cl_df__jcsb {
+  justify-content: space-between;
+}
+
+.cl_df__jcfs {
+  justify-content: flex-start;
+}
+
+.cl_df__jcfe {
+  justify-content: flex-end;
+}
+
+.cl_df__flex0 {
+  flex: 0;
+}
+
+.cl_df__flex1 {
+  flex: 1;
+}
+
+.cl_df__flex10 {
+  flex: 1 0;
+}
+
+/* display - gird
+------------------------------ */
